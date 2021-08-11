@@ -5,7 +5,14 @@ import gameWeeks from './gameWeeks.json';
 const { matchMap, teams } = matchData;
 
 function App() {
-  const [gameWeek, setGameWeek] = useState(0);
+  const [gameWeek, setGameWeek] = useState(
+    Math.max(
+      gameWeeks.findIndex(
+        ({ deadline_time }) => deadline_time >= new Date().toISOString(),
+      ),
+      0,
+    ),
+  );
 
   const { att, def } = useMemo(() => {
     const teams = [];
