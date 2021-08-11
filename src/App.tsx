@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
-import matchData from './matches.json';
-import gameWeeks from './gameWeeks.json';
+import matchData from './matches';
+import gameWeeks from './gameWeeks';
 
 const { matchMap, teams } = matchData;
 
