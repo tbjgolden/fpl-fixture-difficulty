@@ -1,0 +1,25 @@
+Best:
+  For: H: 2.63 A: 2.1
+  Against: H: 0.46 A: 0.58
+
+Worst:
+  For: H: 0.58 A: 1.52
+  Against: H: 0.46 A: 1.9
+
+Best att vs worst def
+  H: 3.875
+  A: 2.75
+
+Worst att vs best def
+  H: 0.5
+  A: 0.25
+
+FPL strength:
+  best: 1300
+  worst: 1025
+
+Average:
+  H: 1.56
+  A: 1.25
+
+Ratio of 5:4
